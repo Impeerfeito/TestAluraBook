@@ -1,0 +1,122 @@
+@import url(../style.css);
+
+.carrosel__segundo  {
+    padding: 0.3rem 0;
+}
+
+.carrosel__segundo__fundo__titulo {
+    background-color: white;
+    padding: 1rem;
+}
+
+.carrosel__segundo__titulo {
+    color: var(--cor--titulo--segundocarrosel);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.cartao__segundo {
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+}
+    
+.descricao__cartao__segundo {
+    display: flex;
+    justify-content: space-between;
+}
+    
+.botoes__cartao__segundo {
+    display: flex;
+    justify-content: space-between;
+}
+    
+.botoes__item__cartao__segundo {
+    display: flex;
+    justify-content: space-between;
+}
+    
+.titulo__cartao__segundo {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--cor--titulo--primeirocartao);
+    padding: 0.5rem 0 0.75rem 0;
+}
+    
+.segundotitulo__cartao__segundo {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--cor--subtitulo--cartaoprimeiro);
+    margin: 0.5rem 0;
+}
+    
+.texto__cartao__segundo {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cor--text--cartaoprimeiro);
+    padding-bottom: 0.5rem;
+}
+    
+.botoes__imagem__cartao__segundo {
+    padding-left: 1rem;
+}
+    
+.botoes__ancora__cartao__segundo {
+    background-color: var(--cor--botao--cartaoprimeiro);
+    text-decoration: none;
+    padding: 1rem 2.3rem;
+    color: white;
+    font-weight: 700;
+}
+
+.imagem__cartao__descricao__segundo {
+    padding-bottom: 2rem; 
+}
+
+.imagem__cartao__descricao {
+    padding-bottom: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .carrosel__segundo__titulo {
+        font-size: 26px;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper {
+        width: 65%;
+    }
+
+    .cartao__segundo {
+        width: 40%;
+        margin: 2em auto;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+    .titulo__cartao__segundo {
+        font-size: 32px;
+    }
+
+    .texto__cartao__segundo {
+        font-size: 16px;
+    }
+
+    .descricao__cartao__segundo {
+        margin: 2em;
+    }
+
+    .cartao__segundo {
+        width: 60%;
+        margin-left: 3em;
+    }
+    
+}
